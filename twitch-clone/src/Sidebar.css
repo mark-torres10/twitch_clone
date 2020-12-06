@@ -19,3 +19,33 @@
     color: #a970ff;
     cursor: pointer;
 }
+
+.sidebar_bottom {
+    position: fixed; 
+    bottom: 0; 
+    height: 4rem; 
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid #4f4f52;
+}
+
+.sidebar_bottomcContainer {
+    background-color: #4f4f52; 
+    width: 90%; 
+    display: flex; 
+    height: 2.5rem; 
+    border-radius: 8px; 
+    align-items: center;
+    padding-left: 10px; 
+    padding-right: 5px; 
+}
+
+.sidebar_bottom>div>input {
+    background-color: transparent; 
+    border: none; 
+    outline: none; 
+    font-size: large; 
+    width: 100%; 
+    margin-left: 10px; 
+}
