@@ -1,0 +1,12 @@
+.body {
+    background-color: rgb(255, 153, 0); 
+    background-image: url("https://tse4.mm.bing.net/th?id=OIP.o_LVqn47XZe1uEg9W0J91QHaDt&pid=Api"); 
+    flex: 1; 
+    display: flex; 
+    height: 100vh; 
+    overflow: scroll; 
+}
+
+.body_left {
+    width: 96%; 
+}
