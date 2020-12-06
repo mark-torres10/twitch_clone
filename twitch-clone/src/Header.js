@@ -1,5 +1,6 @@
 import React from 'react';
 /*import { Avatar } from '@material-ui/core';*/
+/*import Avatar from '@material-ui/core/Avatar';*/
 import "./Header.css";
 
 const Header = () => {
@@ -33,6 +34,7 @@ const Header = () => {
                         <h4>Get Bits</h4>
                     </div>
                     {/*<Avatar />*/}
+                    <i class="fas fa-user-tie"></i>
                 </div>
             </div>
         </div>
